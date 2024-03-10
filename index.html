@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venda de Carros</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Iglesias de Los Carros</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carros">Carros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Somos a Iglesias de los Carros, uma empresa dedicada à venda de carros. Com um compromisso inabalável com a qualidade, oferecemos os melhores produtos e atendimento aos nossos clientes. Nosso objetivo é proporcionar uma experiência excepcional e satisfatória em cada interação, ajudando você a encontrar o carro dos seus sonhos. Na Iglesias de los Carros, a excelência é a nossa prioridade.</p>
+    </div>
+  </section>
+
+  <section id="carros" class="section bg-light">
+    <div class="container">
+      <h2>Nossos Carros</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/carros/renegade.png" class="card-img-top" alt="Carro 1">
+            <div class="card-body">
+              <h5 class="card-title">
+              <p class="card-text">Jeep Compass e Renegade</p>
+              </h5>
+              <p class="card-text">Jeep Compass Renegade é um veículo SUV compacto que combina estilo, desempenho e funcionalidade. Com um design robusto e elegante, o Compass Renegade é ideal tanto para aventuras off-road quanto para uso urbano diário. Seu interior espaçoso oferece conforto e conveniência, enquanto sua tecnologia avançada proporciona uma experiência de condução moderna e segura. Equipado com uma variedade de recursos e opções de motorização, o Jeep Compass Renegade é uma escolha versátil e confiável para aqueles que buscam um veículo que se destaque em todos os aspectos.</p>
+              <a href="https://motor1.uol.com.br/news/422806/jeep-compass-renegade-aumento-precos/" class="btn btn-primary">Ver Detalhes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/carros/wraflager.png" class="card-img-top" alt="Carro 2">
+            <div class="card-body">
+              <h5 class="card-title">Jeep Wrangler Rubicon</h5>
+              <p class="card-text">DO Jeep Wrangler Rubicon é um ícone off-road, conhecido por sua capacidade excepcional de enfrentar os terrenos mais difíceis. O Wrangler Rubicon oferece desempenho incomparável em trilhas e aventuras todo-terreno. Equipado com tração nas quatro rodas, diferencial blocante, suspensão robusta e pneus todo-terreno, o Rubicon é projetado para superar obstáculos com facilidade. Seu design clássico e características distintivas tornam-no reconhecível em qualquer lugar. Para aqueles que buscam uma experiência off-road autêntica e emocionante, o Jeep Wrangler Rubicon é a escolha ideal.</p>
+              <a href="https://autoesporte.globo.com/testes/review/2021/01/teste-novo-jeep-wrangler-rubicon-e-legal-mas-representa-a-vitoria-da-emocao-sobre-a-razao.ghtml" class="btn btn-primary">Ver Detalhes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/carros/blindado.png" class="card-img-top" alt="Carro 3">
+            <div class="card-body">
+              <h5 class="card-title">Jeep Compass Blindado</h5>
+              <p class="card-text">O Jeep Compass Blindado oferece a combinação perfeita de segurança e desempenho em um SUV compacto. Construído com materiais de alta resistência e tecnologia de proteção balística, este veículo proporciona tranquilidade em qualquer ambiente. Além de seu nível de blindagem, o Compass Blindado mantém as características essenciais do Jeep Compass padrão, incluindo seu design elegante, interior espaçoso e tecnologia avançada. Seja para uso diário na cidade ou para viagens mais longas, o Jeep Compass Blindado oferece segurança e conforto incomparáveis para seus ocupantes.</p>
+              <a href="https://www.gpsmotors.com.br/carros/usado/guarulhos/jeep/compass/s-t270-1.3-tb-4x2-flex-aut-2023/id-171002" class="btn btn-primary">Ver Detalhes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted text-center">© 2024 uma marca de la Iglesias de Los Carros</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
