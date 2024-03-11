@@ -13,7 +13,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://github.com/FrancelineIglesiaas/meuSitePelaDescomplica_iglesiasdeLosCarros.git",
+            "url": "https://francelineiglesiaas.github.io/iglesiasdeloscarros/",
             "webRoot": "${aulaPraticaFront}"
         }
     ]
